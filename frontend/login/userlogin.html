@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./userlogin.css">
+    <script src="https://kit.fontawesome.com/fffd359068.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <!-- scroll bar to display offers -->
+    <div id="scroll-offers">
+        <marquee id="marquee-scroll"> Shop for ₹899 or more and get <b>15% OFF</b> — Use Coupon: <span class="coupon">SHOP15</span> </marquee>
+    </div>
+
+    <!-- hearder part -->
+     <div id="heading" class="heading-class">
+        <div id="company-heading">
+            <h1>Tranquiskin</h1>
+        </div>
+    <div class="nav-menu">
+       <ul>
+        <li><a href="http://127.0.0.1:5500/frontend/mainpage/userhome.html">Shop</a></li>
+        <li><a href="#">Best Sellers</a></li>
+        <li><a href="#">Skin & Body Care</a></li>
+        <li><a href="#">Baby Care</a></li>
+        <li><a href="#">Hair Care</a></li>
+        <li><a href="http://127.0.0.1:5500/frontend/skinanalysis.html">AI Assistants</a></li>
+        <li><a href="http://127.0.0.1:5500/frontend/tranqskin.trackorder.html">Track Order</a></li>
+      </ul>
+   </div>
+   <div id="icons">
+
+    <i class="fa-solid fa-cart-shopping"></i>
+    <i class="fa-solid fa-user"></i>
+
+   </div>
+     </div><br><br><br>
+
+     <div id="signupform">
+      <h1>SIGN IN</h1>
+      <form onsubmit="save(event)">
+        <input type="email" id="signin-email" class="signin-input" placeholder="Email" autocomplete="off" required><br>
+        <input type="password" id="signin-password" class="signin-input" placeholder="Password" required><br><br>
+        <p id="password-fail"></p>
+        <a href="http://127.0.0.1:5500/frontend/forgotpassword/forgot.html" style="font-size: small;" id="forget">Forgot your password?</a><br><br>
+        <p id="demo1"></p>
+        <button id="signin-btn" type="submit">SIGN IN</button>
+      </form><br>
+      <p>Don't you have account<a href="http://127.0.0.1:5500/frontend/signup/usersignup.html">click here</a></p>
+    </div>
+    <div id="login-details" hidden>
+    <h2 id="member-heading">Member Information</h2>
+    <label id="name">Full Name</label><br>
+    <input type="text" id="fullname" class="input" required><br><br>
+    <label id="name">Email</label><br>
+    <input type="email" id="email" class="input" disabled><br><br>
+    <button type="button" id="save-btn" onclick="saveinfo()">Save</button>
+    <button type="button" id="logout-btn" onclick="logout()">Logout</button><br><br>
+    <hr id="line2">
+    <h3 id="change-pass">Change Password</h3>
+    <label id="newpassword">New password</label><br>
+    <input type="password" id="update-password" class="input"><br><br>
+    <button type="button" id="savepassword-btn" onclick="changepassword()">Save</button><br>
+    </div>
+    <script src="userlogin.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./usersignup.css">
+    <script src="https://kit.fontawesome.com/fffd359068.js" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+</head>
+<body>
+
+    <!-- scroll bar to display offers -->
+    <div id="scroll-offers">
+        <marquee id="marquee-scroll"> Shop for ₹899 or more and get <b>15% OFF</b> — Use Coupon: <span class="coupon">SHOP15</span> </marquee>
+    </div>
+
+    <!-- hearder part -->
+     <div id="heading" class="heading-class">
+        <div id="company-heading">
+            <h1>Tranquiskin</h1>
+        </div>
+    <div class="nav-menu">
+       <ul>
+        <li><a href="http://127.0.0.1:5500/frontend/mainpage/userhome.html">Shop</a></li>
+        <li><a href="#">Best Sellers</a></li>
+        <li><a href="#">Skin & Body Care</a></li>
+        <li><a href="#">Baby Care</a></li>
+        <li><a href="#">Hair Care</a></li>
+        <li><a href="http://127.0.0.1:5500/frontend/tranquiskin.checkskin/skinanalysis.html">AI Assistants</a></li>
+        <li><a href="http://127.0.0.1:5500/frontend/ordersstatus/trackorder.html">Track Order</a></li>
+      </ul>
+   </div>
+   <div id="icons">
+
+    <i class="fa-solid fa-cart-shopping"></i>
+    <i class="fa-solid fa-user"></i>
+
+   </div>
+     </div><br><br><br>
+
+     <div id="signup-form">
+        <h1>Create Account</h1>
+        <form onsubmit="save(event)">
+            <input type="text" id="signup-name" class="signup-input" placeholder="Enter Name" autocomplete="off" required><br>
+            <input type="text" id="signup-mobile" class="signup-input" placeholder="Mobile Number" autocomplete="off" required><br>
+            <input type="email" id="signup-email" class="signup-input" placeholder="Email" autocomplete="off" required><br>
+            <input type="password" id="signup-password" class="signup-input" placeholder="Password" required><br>
+            <input type="password" id="signup-repassword" class="signup-input" placeholder="Re Enter Password" required>
+            <p id="passwordwrong"></p>
+            <button id="signup-btn">SIGN UP</button>
+        </form><br>
+        <p>Already have an account<a href="http://127.0.0.1:5500/frontend/login/userlogin.html">click here</a></p>
+     </div>
+
+     <script src="usersignup.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./userhome.css">
+    <script src="https://kit.fontawesome.com/fffd359068.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <!-- scroll bar to display offers -->
+    <div id="scroll-offers">
+        <marquee id="marquee-scroll"> Shop for ₹899 or more and get <b>15% OFF</b> — Use Coupon: <span class="coupon">SHOP15</span> </marquee>
+    </div>
+
+    <!-- hearder part -->
+     <div id="heading" class="heading-class">
+        <div id="company-heading">
+            <h1>Tranquiskin</h1>
+        </div>
+    <div class="nav-menu">
+       <ul>
+        <li><a href="http://127.0.0.1:5500/frontend/mainpage/userhome.html">Shop</a></li>
+        <li><a href="#bestseller-products">Best Sellers</a></li>
+        <li><a href="http://127.0.0.1:5500/frontend/tranquiskinpro/tranquiskin.baby.html">Our Products</a></li>
+        <!-- <li><a href="#">Baby Care</a></li>
+        <li><a href="#">Hair Care</a></li> -->
+        <li><a href="http://127.0.0.1:5500/frontend/tranquiskin.checkskin/skinanalysis.html">AI Assistants</a></li>
+        <li><a href="http://127.0.0.1:5500/frontend/ordersstatus/trackorder.html">Track Order</a></li>
+      </ul>
+   </div>
+
+   <div id="icons">
+
+    <i class="fa-solid fa-cart-shopping" id="checkout-img"></i><sup>1</sup>
+    <i class="fa-solid fa-user" id="account"></i>
+
+   </div>
+     </div>
+<!-- 
+     displaying new launch product -->
+
+     <div id="newlaunch-img">
+        <img src="../imagesecom/skinnew.jpg" alt="New Launch" id="newitem-displayhome">
+     </div>
+     <br><br>
+     <div id="gift">
+        <i class="fa-solid fa-gift" id="gift-icon"></i>
+        <span id="gift-text">Unlock Gift</span>
+
+     </div>
+
+     <div id="bestseller-heading">
+        <h1>Our Best Sellers</h1>
+     </div><br>
+
+     <!-- displaying the product images -->
+      <div id="bestseller-products">
+
+      </div>
+
+      <script src="userhome.js"></script>
+
+</body>
+</html>

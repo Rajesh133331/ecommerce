@@ -1,0 +1,117 @@
+#scroll-offers{
+    background-color: #FB6900;
+    padding:10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#marquee-scroll{
+    color:white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li a,a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+ul li a:hover {
+  color: #FB6900;
+}
+p a{
+  margin-left: 10px;
+}
+
+i{
+  margin-left: 20px;
+}
+
+#heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 2px solid #eee;
+}
+
+#signupform{
+    padding: 30px;
+    background: #fff; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-left: 500px;
+    width: 300px;
+
+}
+
+.signin-input {
+      height: 35px;
+      width: 250px;
+      margin-top: 10px;
+    }
+
+.signin-input::placeholder {
+      text-align: center;
+    }
+
+#signin-btn {
+      margin-top: 10px;
+      margin-left: 70px;
+      width: 120px;
+      height: 35px;
+      border-radius: 10px;
+      color: white;
+      background-color: #0f6a5a;
+      border: #FF4422;
+    }
+p a{
+  margin-left: 10px;
+}
+
+#member-heading,#change-pass,#delete-icon{
+    color: #0b3b33;
+}
+.input{
+            width: 250px;
+            height: 25px;
+        }
+#save-btn,#savepassword-btn{
+ width: 100px;
+ height: 45px;
+color: white;
+font-size: 15px;
+opacity: 0.9;
+border-radius: 5px;
+background-color: #0b3b33;
+border: none;
+}
+#logout-btn{
+width: 100px;
+height: 45px;
+background: none;
+border: none;
+border: 1px solid #0b3b33;
+border-radius: 5px;
+color:#0b3b33;
+margin-left: 10px;
+font-size: 15px;
+}
+
+#login-details{
+
+  margin-left: 50px;
+}

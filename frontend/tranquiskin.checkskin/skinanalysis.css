@@ -1,0 +1,80 @@
+#insight-name{
+    text-align: center;
+}
+#scroll-offers{
+    background-color: #FB6900;
+    padding:10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#marquee-scroll{
+    color:white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+ul li a:hover {
+  color: #FB6900;
+}
+
+i{
+  margin-left: 20px;
+}
+
+#heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 2px solid #eee;
+}
+
+#skin-insighthead{
+    margin-top: 30px;
+}
+#showing-scanimage{
+    width: 600px;
+    height: 390px;
+}
+#scan-image{
+    display: flex;
+}
+#showing-butoon{
+    text-align: center;
+    margin-left: 100px;
+}
+button {
+    padding: 8px 16px;
+    background: #0f6a5a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+ }
+ #overall-rating{
+  color: brown;
+ }
+ #result-showing{
+    text-align: center;
+    margin-left: 100px;
+ }

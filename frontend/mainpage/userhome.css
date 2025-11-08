@@ -1,0 +1,147 @@
+#scroll-offers{
+    background-color: #FB6900;
+    padding:10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#marquee-scroll{
+    color:white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+ul li a:hover {
+  color: #FB6900;
+}
+
+i{
+  margin-left: 20px;
+}
+
+#heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 2px solid #eee;
+}
+
+#newitem-displayhome{
+  height: 320px;
+}
+
+#bestseller-heading{
+  margin-left: 30px;
+}
+
+#gift{
+  height: 20px;
+  width: 200px;
+  background-color: #FB6900;
+  padding: 25px;
+  margin-left: 30px;
+  align-items: center;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#gift-text{
+  color:white;
+  font-size: larger;
+  
+}
+
+#gift-icon{
+  margin-right: 15px;
+}
+
+#bestseller-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  max-width: 100%
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.product-card {
+  width: 230px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.product-price {
+  color: #ff4d4d;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-card button {
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #006666;
+}
+sup{
+
+  font-size: 15px;
+  height: 2px;
+  width: 15px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #FB6900;
+  color: white;
+}

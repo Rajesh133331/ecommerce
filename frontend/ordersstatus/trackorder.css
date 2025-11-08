@@ -1,0 +1,39 @@
+#company-name{
+    background-color: #FB6900;
+    height: 50px;
+}
+#name{
+    text-align: center;
+    color:white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button {
+    padding: 8px 16px;
+    background: #0f6a5a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+ }
+ input[type="text"]{
+    height: 30px;
+    width:300px;
+ }
+ #order-track{
+    width: 900px;
+    padding: 50px;
+    background: #fff; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    height: 250px;
+    margin-left: 70px;
+ }
+ #track-id,#order-id,#orderid{
+    margin-left: 10px;
+ }
+ input::placeholder{
+    padding-left: 10px;
+ }

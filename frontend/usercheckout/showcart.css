@@ -1,0 +1,109 @@
+#scroll-offers{
+    background-color: #FB6900;
+    padding:10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#marquee-scroll{
+    color:white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li a,a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+ul li a:hover {
+  color: #FB6900;
+}
+p a{
+  margin-left: 10px;
+}
+
+i{
+  margin-left: 20px;
+}
+
+#heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 2px solid #eee;
+}
+
+sup{
+
+  font-size: 15px;
+  height: 2px;
+  width: 15px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #FB6900;
+  color: white;
+}
+
+#product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+.cart-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cart-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.delete-btn {
+  background-color: #fb6900;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#total {
+  font-size: 18px;
+  margin: 20px;
+}
+
+#pay-now {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 10px;
+}
